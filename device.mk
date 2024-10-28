@@ -54,6 +54,10 @@ $(call soong_config_set,lineage_powershare,powershare_path,/sys/devices/platform
 PRODUCT_PACKAGES += \
     init.device.rc
 
+# Sensors
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/sensors/hals.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/hals.conf
+
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
