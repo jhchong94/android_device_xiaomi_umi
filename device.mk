@@ -35,6 +35,10 @@ PRODUCT_COPY_FILES += \
 # Init
 $(call soong_config_set,xiaomi_kona,variant_lib,//$(LOCAL_PATH):libvariant_xiaomi_umi)
 
+# DSP Volume Synchronizer
+PRODUCT_PACKAGES += \
+    DSPVolumeSynchronizer
+
 # Overlays
 PRODUCT_PACKAGES += \
     ApertureOverlayDevice \
