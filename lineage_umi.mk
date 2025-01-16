@@ -23,5 +23,5 @@ PRODUCT_MODEL := Mi 10
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    BuildDesc="umi-user 13 RKQ1.211001.001 V14.0.5.0.TJBMIXM release-keys" \
-    BuildFingerprint=Xiaomi/umi_global/umi:13/RKQ1.211001.001/V14.0.5.0.TJBMIXM:user/release-keys
+    BuildDesc="umi-user 13 RKQ1.211001.001 V816.0.3.0.TJBMIXM release-keys" \
+    BuildFingerprint=Xiaomi/umi_global/umi:13/RKQ1.211001.001/V816.0.3.0.TJBMIXM:user/release-keys
