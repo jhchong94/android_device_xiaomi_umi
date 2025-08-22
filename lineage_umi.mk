@@ -24,4 +24,4 @@ PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     BuildDesc="umi-user 13 RKQ1.211001.001 V816.0.3.0.TJBMIXM release-keys" \
-    BuildFingerprint=Xiaomi/umi_global/umi:13/RKQ1.211001.001/V816.0.3.0.TJBMIXM:user/release-keys
+    BuildFingerprint=Xiaomi/umi_global/umi:11/RKQ1.200826.002/V12.5.2.0.RJBMIXM:user/release-keys
