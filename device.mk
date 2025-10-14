@@ -73,5 +73,8 @@ PRODUCT_COPY_FILES += \
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
 
+# UFFD GC
+PRODUCT_ENABLE_UFFD_GC := true
+
 # Inherit from vendor blobs
 $(call inherit-product, vendor/xiaomi/umi/umi-vendor.mk)
