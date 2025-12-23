@@ -4,6 +4,6 @@
 //
 
 runtime_resource_overlay {
-    name: "LineageSDKOverlayDevice",
+    name: "CustomSystemUIOverlayDevice",
     vendor: true,
 }

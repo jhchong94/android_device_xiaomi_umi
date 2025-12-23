@@ -1,0 +1,14 @@
+[
+  {
+    "remote": "github",
+    "repository": "jhchong94/android_device_xiaomi_sm8250-common",
+    "target_path": "device/xiaomi/sm8250-common",
+    "branch": "sixteen-qpr1"
+  },
+  {
+    "remote": "github",
+    "repository": "jhchong94/android_vendor_xiaomi_umi",
+    "target_path": "vendor/xiaomi/umi",
+    "branch": "sixteen-qpr1"
+  }
+]
