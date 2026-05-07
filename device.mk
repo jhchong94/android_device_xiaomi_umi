@@ -35,6 +35,29 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     DSPVolumeSynchronizer
 
+# Haptic Feedback Properties
+PRODUCT_VENDOR_PROPERTIES += \
+    sys.haptic.down.weak=0 \
+    sys.haptic.down.normal=2 \
+    sys.haptic.down.strong=4 \
+    sys.haptic.down=3,2 \
+    sys.haptic.tap.normal=3,2 \
+    sys.haptic.tap.light=3,1 \
+    sys.haptic.flick=3,2 \
+    sys.haptic.flick.light=3,1 \
+    sys.haptic.switch=3,1 \
+    sys.haptic.mesh.heavy=3,2 \
+    sys.haptic.mesh.normal=3,1 \
+    sys.haptic.mesh.light=3,0 \
+    sys.haptic.long.press=3,2 \
+    sys.haptic.popup.normal=3,2 \
+    sys.haptic.popup.light=3,1 \
+    sys.haptic.pickup=3,2 \
+    sys.haptic.scroll.edge=3,0 \
+    sys.haptic.trigger.drawer=3,0 \
+    sys.haptic.hold=3,2 \
+    sys.haptic.runin=13
+
 # Init
 $(call soong_config_set,xiaomi_kona,variant_lib,//$(LOCAL_PATH):libvariant_xiaomi_umi)
 
